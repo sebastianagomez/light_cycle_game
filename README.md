@@ -1,26 +1,26 @@
 # Light Cycle Game
 The purpose of this activity is to develop and demonstrate your mastery of the following competencies.
+
 ## Getting Started
 ---
-Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. You can install Raylib Python CFFI by opening a terminal and running the following command.
-```
-python3 -m pip install raylib
-```
-After you've installed the required libraries, open a terminal and browse to the project's root folder. Start the program by running the following command.```
+Make sure you have Python 3.8.0 or newer installed and running on your machine.
 
-python3 snake 
-```
-You can also run the program from an IDE like Visual Studio Code. Start your IDE and open the 
-project folder. Select the main module inside the hunter folder and click the "run" icon.
+You can run the program from an IDE like Visual Studio Code. Start your IDE and open the 
+project folder. Select the main module inside the hilo folder and click the "run" button.
 
 ## Project Structure
 ---
 The project files and folders are organized as follows:
 ```
 root                    (project root folder)
-+-- cycles               (source code for game)
-  +-- game              (specific game classes)
-  +-- __main__.py       (entry point for program)
+  +-- game              (source code for game)
+    +-- casting         (game classes)
+    +-- directing       (game classes)
+    +-- scripting       (game classes)
+    +-- services        (game classes)
+    +-- shared          (game classes)
+  +-- __main__.py       (program entry point)
+  +-- constants.py      (program variables)
 +-- README.md           (general info)
 ```
 
